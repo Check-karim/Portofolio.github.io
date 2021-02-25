@@ -1,15 +1,7 @@
 /* footer CSS */
 
 
-@font-face{
-    font-family: "Stick";
-    src: url("../Stick/Stick-Regular.ttf");
-         src: url("../Stick/Stick-Regular.ttf") format('truetype'); ;
-    font-weight: 400;
-    font-style: normal;
-    
-    
-}
+
 
 /* body */
 body{
