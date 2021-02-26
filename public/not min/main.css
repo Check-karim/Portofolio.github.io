@@ -1,0 +1,410 @@
+/* footer CSS */
+
+
+@font-face {
+    font-family: "Stick";
+    src: url("../Stick/Stick-Regular.ttf");
+    src: url("../Stick/Stick-Regular.ttf") format('truetype');
+    ;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+/* body */
+body {
+    font-family: 'Stick', sans-serif !important;
+    background-color: rgb(242 242 255);
+}
+
+/* body end */
+.navbar-nav {
+    border-radius: 10%;
+}
+
+.nav-link {
+    margin: 5px 10px;
+}
+
+.footer__footer {
+    margin: 30px 0 10px;
+}
+
+.footer__a {
+    padding: 30px;
+}
+
+.footer__section>.container>.row>.col-md-6>a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer__social_media {
+    margin-bottom: 5px;
+}
+
+/* end footer css */
+
+/* navbar */
+.bg-light {
+    background-color: transparent !important;
+}
+
+/* navbar end */
+
+/* main section */
+.main__section {
+
+    margin-bottom: 50px;
+}
+
+.h1__hello {
+    font-size: 5rem;
+}
+
+.p_intro {
+    font-size: 3rem;
+}
+
+.p_add_intro {
+    font-size: 2rem;
+}
+
+/* main section end */
+
+/* content section */
+
+.content__section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.content__success_btn {
+    font-size: 3rem;
+    border: 3px solid;
+    margin-bottom: 70px;
+}
+
+.content__success_btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(75 75 75 / 25%);
+}
+
+.content__skills_col {
+    background-image: url('../Pv4ja.png');
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.content__success_btn:hover {
+    background-color: #f2f2f2;
+    border: 9px solid;
+}
+
+.content_in_skills {
+    text-align: left;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px
+}
+
+/* content section end */
+
+/* skills section */
+.contents {
+    padding: 20px 0;
+}
+
+.contentSkills>img {
+    width: 50%;
+}
+
+.explore {
+    padding: 35px 0;
+}
+
+.skills_html {
+    color: #df4d27;
+    padding-right: 20px;
+}
+
+.skills_css {
+    color: #147bba;
+    padding-right: 20px;
+}
+
+.skills_angular {
+    color: #c00827;
+    padding-right: 20px;
+}
+
+.skills_react {
+    color: #52d9fe;
+    padding-right: 5px;
+}
+
+.skills_php {
+    color: #8480bc;
+}
+
+.skills_js {
+    color: #6899a7;
+}
+
+.skills_java {
+    color: #306a99;
+}
+
+.skills_node {
+    color: #64a752;
+}
+
+.skills_flutter {
+    color: #095798;
+}
+
+.skills_dart {
+    color: #00cbb2;
+}
+
+.skills_c {
+    color: #017cc7;
+}
+
+.content__skill_btn {
+    background-color: #fff;
+    border: 3px solid;
+    margin-bottom: 10px;
+}
+
+.content__skill_btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(75 75 75 / 25%);
+}
+
+.content__skill_btn:hover {
+    background-color: #f2f2f2;
+    border: 5px solid;
+}
+
+.skill_cont {
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+/* skills section end */
+
+/* front end section */
+.front_end {
+    background-color: #fff;
+    padding: 50px 0 50px;
+}
+
+.front_end_content {
+    font-size: 3rem;
+}
+
+.front_end_img>img {
+    width: 100%;
+}
+
+/* front end section end */
+
+/* back end section */
+.back_end {
+    padding: 50px 0 25px;
+}
+
+.p_game {
+    font-size: 1.5rem;
+}
+
+.commencer {
+    border: 2px solid;
+    background-color: #fff;
+}
+
+.commencer:hover {
+    background-color: #f2f2f2;
+    border: 5px solid;
+}
+
+.commencer:focus {
+    box-shadow: 0 0 0 0.25rem rgb(75 75 75 / 25%);
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.btn_game>.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 20%;
+}
+
+.no_display {
+    display: none;
+}
+
+/* back end section end */
+
+/* motion section  */
+.motion_end {
+    background-color: #ce4c5db8;
+    padding: 50px 0 25px;
+}
+
+.motion_content>video {
+    width: 100%;
+}
+
+.con_motion>p {
+    color: #000 !important;
+}
+
+/* motion section end */
+
+/* about me section */
+.about {
+    padding: 55px 0 30px;
+}
+
+.about_end_content>img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.about_end_content {
+    font-size: 1rem;
+}
+
+.about_end_h2 {
+    margin-bottom: 30px;
+}
+
+/* about me section end */
+
+/* contact me section */
+.contact {
+    padding: 55px 0 50px;
+    background-color: #fff;
+}
+
+.contact_email {
+    font-size: 1.5rem;
+}
+
+.contact_start {
+    font-size: 1.5rem;
+}
+
+/* contact me section end */
+
+/* animation */
+.skill_h5 {
+    transform: translate(1%, 1%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: transparent;
+}
+
+.skill_h5:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    border-right: 1px solid #fff;
+    animation: type 10s steps(21) infinite;
+    white-space: nowrap;
+}
+
+.skill_h5_1 {
+    transform: translate(1%, 1%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: transparent;
+}
+
+.skill_h5_1:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    border-right: 1px solid #fff;
+    animation: type 10s steps(20) infinite;
+    white-space: nowrap;
+}
+
+.skill_h5_2 {
+    transform: translate(1%, 1%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: transparent;
+}
+
+.skill_h5_2:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    border-right: 1px solid #fff;
+    animation: type 10s steps(18) infinite;
+    white-space: nowrap;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+/* strat animation */
+
+/* start animation end */
